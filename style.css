@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8vw;
+    align-items: center;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+}
+.hero-section{
+    background-color: #18BC9C;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.hero-section{
+    gap: 4vh;
+}
+.hero-section p{
+   color: white;
+   font-size: 48px;
+}
+.card-container{
+    background-color: #F7F7F7 ;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
+    gap: 3vh;
+}
+.card{
+    height: 370px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.card img{
+    border-radius: 50%;
+}
+.card h3{
+    margin-top: 30px;
+}
+.card p{
+    font-size: 0.90em; 
+    color: gray;     
+    line-height: 1.4; 
+    margin-top: 5px;   
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card:hover{
+    background-color: #18BC9C;
+
+}
+.grass{
+    color: rgb(190, 188, 188);
+    font-size: 38px;
+    text-align: center;
+    background-color: #F7F7F7 ;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.input{
+      text-align: center;
+      background-color: #F7F7F7 ;
+      padding-top: 30px;
+}
+.email{
+    background-color: white;
+    height: 35px;
+    width: 350px;
+
+}
+.button{
+   background-color: #18BC9C;
+   color: white;
+   height: 35px;
+   width: 100px;
+   border-radius: 5px;
+}
+.all{
+    background-color: #F7F7F7;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.input p{
+    color: rgb(197, 197, 197);
+}
+.card-blank{
+    background-color: #F7F7F7;
+    height: 370px;
+    width: 350px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;*/
+}
+.footer{
+    background-color: rgb(58, 58, 77);
+    color: white;
+    display: flex;
+    height: 200px;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 8vh;
+    font-size: 1em;
+    margin-top: 150px;
+}
+.footer h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.footer a{
+    color: blue;
+}
+/* Container for dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    border-radius: 4px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    justify-items: center;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    height: 30px;
+    width: 160px;
+    display: flex;
+    gap: 1px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*
+.dropdown a:hover{
+    background-color: grey;
+}
+    */
+.dropdown-content img{
+    width: 35px;
+}
+.dropbtn img{
+    width: 20px;
+    height: 15px;
+    padding-right: 2px;
+}
+.card a{
+   color: blue; 
+   font-size: 0.90em;      
+   line-height: 1.4; 
+    margin-top: 5px;   
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
